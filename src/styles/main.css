@@ -74,7 +74,6 @@ body {
     background-color: #fff;
     transform: rotateY(180deg);
     transition: 0.25s;
-    cursor: pointer;
 }
 
 .item::after {
@@ -86,6 +85,7 @@ body {
     transform: rotateY(0deg);
     backface-visibility: hidden;
     border-radius: .5rem;
+    cursor: pointer;
 }
 
 .item.boxOpen {
